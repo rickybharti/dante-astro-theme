@@ -1,3 +1,0 @@
-# Redirect root to blog
-/              /blog/          301
-/index.html    /blog/          301 
