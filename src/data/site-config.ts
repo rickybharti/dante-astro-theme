@@ -39,7 +39,7 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    website: 'https://www.juicy.ag', // TODO: Update this if using a different domain
+    website: 'https://www.juicy.ag',  // Production domain
     title: 'Juicy Blog',
     subtitle: 'Insights on Solana LP Strategies & DeFi',
     description: 'Learn about maximizing Solana LP rewards, avoiding rugpulls, and advanced DeFi strategies with Juicy - your automated LP bot',

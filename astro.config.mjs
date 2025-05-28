@@ -6,7 +6,7 @@ import { defineConfig } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
     base: '/blog/',
-    outDir: '../public/blog',
+    outDir: './dist',
     site: 'https://www.juicy.ag',
     vite: {
         plugins: [tailwindcss()]
