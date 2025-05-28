@@ -16,10 +16,6 @@
   to = "/blog/:splat"
   status = 200
 
-# Enable Netlify Identity for Decap CMS
-[build]
-  publish = "public"
-
 # Headers for better performance
 [[headers]]
   for = "/blog/*"
