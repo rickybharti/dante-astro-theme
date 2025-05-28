@@ -1,0 +1,19 @@
+[[redirects]]
+  from = "/blog/*"
+  to = "/blog/:splat"
+  status = 200
+
+# Enable Netlify Identity for Decap CMS
+[build]
+  publish = "public"
+
+# Headers for better performance
+[[headers]]
+  for = "/blog/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+
+[[headers]]
+  for = "/blog/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000" 

@@ -39,81 +39,73 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    website: 'https://example.com',
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    website: 'https://www.juicy.ag', // TODO: Update this if using a different domain
+    title: 'Juicy Blog',
+    subtitle: 'Insights on Solana LP Strategies & DeFi',
+    description: 'Learn about maximizing Solana LP rewards, avoiding rugpulls, and advanced DeFi strategies with Juicy - your automated LP bot',
     image: {
-        src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        src: '/blog/juicy-blog-preview.jpg',
+        alt: 'Juicy Blog - Solana LP Strategies'
     },
     headerNavLinks: [
         {
             text: 'Home',
-            href: '/'
+            href: '/blog/'
         },
         {
-            text: 'Projects',
-            href: '/projects'
-        },
-        {
-            text: 'Blog',
-            href: '/blog'
+            text: 'All Posts',
+            href: '/blog/blog'
         },
         {
             text: 'Tags',
-            href: '/tags'
+            href: '/blog/tags'
+        },
+        {
+            text: 'Back to Juicy.ag',
+            href: '/'
         }
     ],
     footerNavLinks: [
         {
-            text: 'About',
-            href: '/about'
+            text: 'RSS Feed',
+            href: '/blog/rss.xml'
         },
         {
-            text: 'Contact',
-            href: '/contact'
-        },
-        {
-            text: 'Terms',
-            href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
+            text: 'Juicy App',
+            href: '/'
         }
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
+            text: 'Twitter',
+            href: 'https://twitter.com/juicy_ag'
         },
         {
-            text: 'Instagram',
-            href: 'https://instagram.com/'
-        },
-        {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            text: 'Discord',
+            href: 'https://discord.gg/juicy'
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
+        title: 'Welcome to Juicy Blog',
+        text: "Master Solana LP strategies, avoid rugpulls, and maximize your DeFi yields. Get insights from the team behind Juicy - the automated LP bot that helps you trade smarter on Solana.",
         image: {
-            src: '/hero.jpeg',
-            alt: 'A person sitting at a desk in front of a computer'
+            src: '/blog/hero-juicy.jpg',
+            alt: 'Juicy LP Bot'
         },
         actions: [
             {
-                text: 'Get in Touch',
-                href: '/contact'
+                text: 'Read Latest Posts',
+                href: '/blog/blog'
+            },
+            {
+                text: 'Try Juicy Bot',
+                href: '/'
             }
         ]
     },
     subscribe: {
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
+        title: 'Subscribe to Juicy Updates',
+        text: 'Get the latest LP strategies and DeFi insights delivered to your inbox.',
         formUrl: '#'
     },
     postsPerPage: 8,
