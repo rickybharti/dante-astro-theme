@@ -1,6 +1,5 @@
 # Build settings
 [build]
-  base = "dante-astro-theme"
   publish = "dist"
   command = "npm install && npm run build"
 
